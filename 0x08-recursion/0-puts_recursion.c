@@ -1,11 +1,10 @@
+#include <stdio.h>
 #include "main.h"
-
 /**
- * _put_recursion - print a string followed by new line
- * @s: string to print
- *
- * Return: nothing
+ * _puts_recursion - Thsi this the recusive function
+ * @s: This is a pointer that recieves a string
  */
+
 void _puts_recursion(char *s)
 {
 	if (*s)
