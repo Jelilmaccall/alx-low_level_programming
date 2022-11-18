@@ -40,7 +40,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
  *
  * Return: pointer to @s
  */
-
 char *make_nil(char *s)
 {
 	if (s == NULL)
